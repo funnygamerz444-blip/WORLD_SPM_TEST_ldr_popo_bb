@@ -1,0 +1,20 @@
+services:
+  - type: web
+    name: ldr-world-dashboard
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python main.py
+    healthCheckPath: /
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9
+
+      - key: JOIN_API_TOKEN
+        sync: false
+      - key: SUMMARY_INTERVAL_SECONDS
+        value: "60"
+      - key: TRACKING_WINDOW_SECONDS
+        value: "300"
+      - key: RATE_LIMIT_PER_MINUTE
+        value: "120"

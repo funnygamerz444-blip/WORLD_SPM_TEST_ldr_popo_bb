@@ -1,0 +1,62 @@
+{
+    "squad_size": 3,
+    "game_mode": "CS",
+    "world_recruit_count": 3,
+    "world_recruit_type": "random",
+    "squad_lifetime_sec": 9,
+    "auto_recreate": true,
+    "welcome_msg": "[b][c][i][ff0000]Pl3as3 l1k3 th1s [ffbbbb]u1d: 314_007_08_00 Thx!\n",
+    "auto_recruit_on_join": true,
+    "auto_recruit_on_leave": true,
+    "recruit_delay_sec": 1.0,
+    "auto_bundle_on_join": false,
+    "bundle_count_on_join": 2,
+    "auto_animation": false,
+    "animation_interval_sec": 5,
+    "auto_emote_on_join": false,
+    "emote_join_delay_sec": 0.5,
+    "join_emote_pool": [
+        909049013,
+        909045010,
+        909000020,
+        909000010,
+        909055004,
+        909055005,
+        909000062
+    ],
+    "auto_kick_on_join": false,
+    "kick_delay_sec": 1.0,
+    "kick_msg": "[B][C][FF0000]🚫 AKSES DITOLAK![FFFFFF]Kamu telah di-kick otomatis.",
+    "auto_welcome_on_join": true,
+    "welcome_delay_sec": 0.5,
+    "bot_self_emote_enabled": false,
+    "bot_self_emote_pool": [
+        909049013,
+        909045010,
+        909000020,
+        909000010,
+        909055004,
+        909055005,
+        909000062
+    ],
+    "bot_self_emote_interval": 2.0,
+    "commands": {
+        "/store": {
+            "enabled": true,
+            "match": "contains",
+            "type": "message",
+            "response": "[C][FFD700]⚡ TOKO NM.C😶DX ⚡\n[C][00FF00]🤖 TCP BOT: [FFFF00]500 BDT\n[C][00FF00]🌐 Website: [FFFF00]nmc😶dx.xo.je\n[C][00FF00]👤 Owner: [FFFF00]@NMC😶DX"
+        },
+        "/app": {
+            "enabled": true,
+            "match": "contains",
+            "type": "message",
+            "response": "[C][B][00FFFF]📱 APP NM.C😶DX TCP\n[C][00FF00]https://www.mediafire.com/file/lvykrek51q17hae/NMC😶DX_TCP.apk"
+        },
+        "st": {
+            "enabled": true,
+            "match": "exact",
+            "type": "recruit_squad"
+        }
+    }
+}
